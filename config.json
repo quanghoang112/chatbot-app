@@ -1,24 +1,24 @@
 {"APIkey" : "",
 "DashboardsTabs" : [
                 {
-                    "Name" : "Profitability Overview",
-                    "Description" : "Has information about a Supertore in United States including cards for: total sales, total profit, profit ratio, profit per order, profit per custumer, average discount and quantity. It also has a map showing for each unit a circle where it's size corresponds to the profit/loss and the color is blue if the profit ratio is positive and orange if it's negative. It has charts for Monthly Sales by segment and monthly sales by product category. It is possible to filter it by Order Date, Region (Central, East, South and West), State (All US States) and Profit Ratio.",
-                    "url": "https://public.tableau.com/views/Superstore_embedded_800x800/Overview"
+                    "Name" : "Diem trung binh cac mon",
+                    "Description" : "It's a bar chart that shows the average scores of different subjects in a specific province at a certain point in time, allowing for comparison between subjects. However, this chart does not support comparison between provinces. The chart does not support comparison between provinces.",
+                    "url": "https://prod-apnortheast-a.online.tableau.com/t/quanghoang11251b7b1605d/views/imTB/Dashboard1?:origin=card_share_link&:embed=n"
                 },
                 {
-                    "Name" : "Product Drilldown",
-                    "Description" : "It has a heatmap table where columns are calendar months and the rows are 2 index with product categories (Furniture, Office Supplies and Technology) and years. The values on the table are total sales. It also has a chart with the horizontal axis representing the total sales as dots, and 3 columns for the segment (Cosumer, Corporate and Home Office). The vertical axis has the product category and type of product. It is possible to filter it by Order Date, Region (Central, East, South and West), State (All US States), Profit and Profit Ratio.",
-                    "url" : "https://public.tableau.com/views/Superstore_embedded_800x800/Product"
+                    "Name" : "Bang so sanh giua cac tinh",
+                    "Description" : "This is a line chart that allows us to compare the average score of any subject over time and between different provinces. However, this chart does not allow us to compare scores between subjects.",
+                    "url" : "https://prod-apnortheast-a.online.tableau.com/t/quanghoang11251b7b1605d/views/SoSanhGiuaCacTinh/Dashboard1?:origin=card_share_link&:embed=n"
                 },
                 {
-                    "Name" : "On-Time Shipment Trends",
-                    "Description" : "It shows the percentage or shippments late, on time and early. It also shows the number of days to ship by product in a gant chart where the horizontal axis is dates and the horizontal axis is the products. It is possible to filter it by Order Year, Order Quarter, Region and Ship Mode.",
-                    "url" : "https://public.tableau.com/views/Superstore_embedded_800x800/Shipping"
+                    "Name" : "Pho diem",
+                    "Description" : "The chart displays the distribution of subject scores across the range of score values and their frequencies. The chart shows that the majority of the test takers scored within a certain range of values. There is no capability to compare between provinces or years.",
+                    "url" : "https://prod-apnortheast-a.online.tableau.com/t/quanghoang11251b7b1605d/views/Phim/Dashboard1?:origin=card_share_link&:embed=n"
                 },
                 {
-                    "Name" : "Sales Performance vs Target",
-                    "Description" : "It has a bar chart with the total sales for each procudt category as columns and a 2 index row with calendar month and segment. The bars are green when the sales are above target and orange when the sales are below target. It can be filtered by Year and Quarter.",
-                    "url" : "https://public.tableau.com/views/Superstore_embedded_800x800/Performance"
+                    "Name" : "Bieu do nhiet tan suat tham gia thi",
+                    "Description" : "The heatmap illustrates the number of exam takers nationwide by year and subject, based on data from the year, subject, and frequency columns. The chart allows for a general comparison between provinces but does not show specific figures.",
+                    "url" : "https://public.tableau.com/app/profile/hien.thai/viz/imTHPT/Dashboard3?publish=yes"
                 },
                 {
                     "Name" : "Order Details",
