@@ -55,7 +55,7 @@ with gr.Blocks() as demo:
     )
     with gr.Row() as row:
         with gr.Column(scale=10) as col:
-            chatbot = gr.Chatbot()
+            chatbot = gr.Chatbot(height=280)
             msg = gr.Textbox(lines=1)
             clear = gr.Button("Clear")
         with gr.Column(scale=2) as col:
