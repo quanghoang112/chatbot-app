@@ -46,9 +46,11 @@ reply_history=['']
 html = None
 
 with gr.Blocks() as demo:
-    # gr.Markdown(
-    #     """
-    #     # Tableau Dashboard Chatbot
+    gr.Markdown(
+        """
+        # Tableau Dashboard Chatbot
+        """
+    )
     #     Use natural language to find and access relevant Tableau dashboards.
     #     This demo uses the Public Superstore Dashboard as an example, so you can ask about profits, sales, shippings, orders, etc.
     #     """
