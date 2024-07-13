@@ -46,16 +46,16 @@ reply_history=['']
 html = None
 
 with gr.Blocks() as demo:
-    gr.Markdown(
-        """
-        # Tableau Dashboard Chatbot
-        Use natural language to find and access relevant Tableau dashboards.
-        This demo uses the Public Superstore Dashboard as an example, so you can ask about profits, sales, shippings, orders, etc.
-        """
-    )
+    # gr.Markdown(
+    #     """
+    #     # Tableau Dashboard Chatbot
+    #     Use natural language to find and access relevant Tableau dashboards.
+    #     This demo uses the Public Superstore Dashboard as an example, so you can ask about profits, sales, shippings, orders, etc.
+    #     """
+    # )
     with gr.Row() as row:
         with gr.Column(scale=10) as col:
-            chatbot = gr.Chatbot(height=280)
+            chatbot = gr.Chatbot(height=380)
             msg = gr.Textbox(lines=1)
             clear = gr.Button("Clear")
         with gr.Column(scale=2) as col:
